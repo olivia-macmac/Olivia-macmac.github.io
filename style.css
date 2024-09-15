@@ -8,8 +8,8 @@ body {
 }
 #Logo {
     margin: 0px; 
-    padding: 7px; 
-    font-family: "Fredoka One"
+    padding: 10px; 
+    font-family:cursive
    
 }
 ul {
@@ -59,9 +59,6 @@ body > footer {
     background-color: #ff7473;
     display: flex;
 }
-#Fringe {
-    padding-bottom: 2%
-}
 #Newsletter {
     background-color: #34314c;
     color: white;
@@ -88,33 +85,35 @@ body > footer {
     margin: 0px;
     padding: 4px;
     width: 100%;
+    font-family:fantasy;
 }
-
 
 #tfhmusical {
-    margin: 100px;
-    margin-right: 0px;
-    align-items: center;
-    width: 1000px;
-    display: grid;
-    grid-template-rows: auto auto auto;
-    grid-template-areas:
-    "tfhmain tfhimage"
-    ;
-    grid-template-columns: 60% 40%;
+    display: flex;
 }
-#tfhmain {
-grid
+#tfhmusical > img {
+    margin-right: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
 }
-
-#tfhimage {
-    grid-area: tfhimage;
-    padding: 16px;
-    width: auto;
+#RJ {
+    display: flex;
 }
-#tfhfooter {
-    grid-area: tfhfooter;
-    padding: 16px;
+#RJ > img {
+    margin-right: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
 }
-
+#MSND {
+    display: flex;
+    margin-bottom: 5%;
+}
+#MSND > img {
+    margin-right: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
 
